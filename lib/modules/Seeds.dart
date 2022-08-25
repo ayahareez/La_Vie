@@ -11,13 +11,22 @@ class _SeedsState extends State<Seeds> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green,
 
-      body:Column(
-        children: [
-          Text('wooow')
-        ],
-      ),
+        body: Container(
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Seeds',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 50.0,
+                ),
+              )
+            ],
+          ),
+        ),
     );
   }
 }

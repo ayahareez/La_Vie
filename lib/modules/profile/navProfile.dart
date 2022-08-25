@@ -9,7 +9,21 @@ class _ProfileState extends State<NavProfile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:Text('profile')
+        body: Container(
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Profile',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 50.0,
+                ),
+              )
+            ],
+          ),
+        )
     );
   }
 }

@@ -11,7 +11,21 @@ class _LeavesState extends State<Leaves> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('leaves')
+      body: Container(
+        width: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+                'leaves',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 50.0,
+              ),
+              )
+          ],
+        ),
+      )
     );
     ;
   }

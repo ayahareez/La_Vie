@@ -11,7 +11,21 @@ class _ScanState extends State<Scan> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('hello'),
+      body: Container(
+        width: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Scan',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 50.0,
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }

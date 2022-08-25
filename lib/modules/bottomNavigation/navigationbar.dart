@@ -87,7 +87,7 @@ image: AssetImage('asset/images/topbottom.png'),
 ),
 label:'Scan',
 ),
-BottomNavigationBarItem(
+BottomNavig2ationBarItem(
 icon: Icon(
 Icons.home,
 color: Color(hexColor('000000')),

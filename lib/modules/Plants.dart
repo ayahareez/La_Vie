@@ -11,12 +11,22 @@ class _PlantsState extends State<Plants> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
-      body:Column(
-        children: [
-          Text('hello')
-        ],
-      ),
+      backgroundColor: Colors.green,
+        body: Container(
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Plants',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 50.0,
+                ),
+              )
+            ],
+          ),
+        ),
     );
   }
 }

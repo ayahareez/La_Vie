@@ -13,11 +13,21 @@ class _ToolsState extends State<Tools> {
     return Scaffold(
       backgroundColor: Colors.red,
 
-      body:Column(
-        children: [
-          Text('yes')
-        ],
-      ),
+        body: Container(
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Tools',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 50.0,
+                ),
+              )
+            ],
+          ),
+        ),
     );
   }
 }

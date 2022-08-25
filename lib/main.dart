@@ -9,17 +9,15 @@ import 'package:orange_project/modules/splash/splash_screen.dart';
 import 'package:orange_project/test.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner :false,
-      home: NavNotification(),
+      debugShowCheckedModeBanner: false,
+      home: BottomNavigation(),
     );
   }
 }
-
-
